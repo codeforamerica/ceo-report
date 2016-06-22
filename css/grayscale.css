@@ -49,7 +49,7 @@ section {
 }
 
 a {
-    color: #42dca3;
+    color: #05237F;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -58,7 +58,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #2C99C4;
 }
 
 .light {
@@ -139,8 +139,8 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        border-bottom: 1px solid #039;
+        background: rgba(0, 51, 153, 0.8);
     }
 }
 
@@ -151,12 +151,12 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: -moz-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0,85,149,0.89) 79%), url('../img/manhattan.jpg') no-repeat;
+    background: -moz-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0, 51, 153,0.89) 79%), url('../img/manhattan.jpg') no-repeat;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,142,198,0.67)), color-stop(79%, rgba(0,142,198,0.67))), url('../img/manhattan.jpg') no-repeat;
-    background: -webkit-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0,85,149,0.89) 79%), url('../img/manhattan.jpg') no-repeat;
-    background: -o-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0,85,149,0.89) 79%), url('../img/manhattan.jpg') no-repeat;
-    background: -ms-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0,85,149,0.89) 79%), url('../img/manhattan.jpg') no-repeat;
-    background: linear-gradient(to bottom, rgba(0,142,198,0.67) 0%, rgba(0,85,149,0.89) 79%), url('../img/manhattan.jpg') no-repeat;
+    background: -webkit-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0, 51, 153,0.89) 79%), url('../img/manhattan.jpg') no-repeat;
+    background: -o-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0, 51, 153,0.89) 79%), url('../img/manhattan.jpg') no-repeat;
+    background: -ms-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0, 51, 153,0.89) 79%), url('../img/manhattan.jpg') no-repeat;
+    background: linear-gradient(to bottom, rgba(0,142,198,0.67) 0%, rgba(0, 51, 153,0.89) 79%), url('../img/manhattan.jpg') no-repeat;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -169,7 +169,7 @@ a:focus {
   width: 100%;
   padding: 100px 0;
   text-align: center;
-  color: #fff;
+  color: #003399;
   background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -183,12 +183,12 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: -moz-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0,85,149,0.89) 79%), url('../img/subway.jpg') no-repeat;
+  background: -moz-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0, 51, 153,0.89) 79%), url('../img/subway.jpg') no-repeat;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,142,198,0.67)), color-stop(79%, rgba(0,142,198,0.67))), url('../img/subway.jpg') no-repeat;
-  background: -webkit-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0,85,149,0.89) 79%), url('../img/subway.jpg') no-repeat;
-  background: -o-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0,85,149,0.89) 79%), url('../img/subway.jpg') no-repeat;
-  background: -ms-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0,85,149,0.89) 79%), url('../img/subway.jpg') no-repeat;
-  background: linear-gradient(to bottom, rgba(0,142,198,0.67) 0%, rgba(0,85,149,0.89) 79%), url('../img/subway.jpg') no-repeat;
+  background: -webkit-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0, 51, 153,0.89) 79%), url('../img/subway.jpg') no-repeat;
+  background: -o-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0, 51, 153,0.89) 79%), url('../img/subway.jpg') no-repeat;
+  background: -ms-linear-gradient(top, rgba(0,142,198,0.67) 0%, rgba(0, 51, 153,0.89) 79%), url('../img/subway.jpg') no-repeat;
+  background: linear-gradient(to bottom, rgba(0,142,198,0.67) 0%, rgba(0, 51, 153,0.89) 79%), url('../img/subway.jpg') no-repeat;
   background-color: #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -247,15 +247,15 @@ a:focus {
 }
 
 .btn-circle-blue {
-  color: rgba(0,85,149,1);
-  border-color: rgba(0,85,149,1);
+  color: rgba(0, 51, 153,1);
+  border-color: rgba(0, 51, 153,1);
 }
 
 .btn-circle-blue:hover,
 .btn-circle-blue:focus {
   outline: 0;
-  color: rgba(0,85,149,1);
-  background: rgba(0,85,149,.1);
+  color: rgba(0, 51, 153,1);
+  background: rgba(0, 51, 153,.1);
 }
 
 .btn-circle i.animated {
@@ -358,17 +358,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #05237F;
+    color: #05237F;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #05237F;
     outline: 0;
-    color: #000;
-    background-color: #42dca3;
+    color: #fff;
+    background-color: #05237F;
 }
 
 ul.banner-social-buttons {
@@ -423,4 +423,9 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.download {
+  color: #05237F;
+  background-color: #fff;
 }
