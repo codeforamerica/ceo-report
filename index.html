@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>CEO Poverty Measure 2005-2014</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                    CEO Poverty Measure 2005-2014
                 </a>
             </div>
 
@@ -53,13 +53,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Download</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#download">Download Report</a>
                     </li>
                 </ul>
             </div>
@@ -69,49 +63,99 @@
     </nav>
 
     <!-- Intro Header -->
-    <header class="intro">
+    <section class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                      <h1>Measuring Poverty in NYC</h1>
+                      <p>The Center for Economic Opportunity (CEO) poverty rate for 2014 is 20.7 percent.
+This is statistically unchanged from the 2013 rate of 21.1 percent and represents
+the fourth consecutive year with no significant change in the poverty rate.</p>
+                    </div>
+                    <div class="col-sm-7">
+                        <canvas id="chart0" width="400" height="200"></canvas>
+                    </div>
+                    <div class="col-sm-12">
+                      <a href="#section-1" class="btn btn-circle page-scroll">
+                          <i class="fa fa-angle-double-down animated"></i>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-1" class="section-white">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Grayscale</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
+                        <canvas id="chart1" width="400" height="200"></canvas>
+                        <a href="#section-2" class="btn btn-circle btn-circle-blue page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Grayscale</h2>
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+    <section id="section-2" class="section-blue">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <canvas id="chart2" width="400" height="200"></canvas>
+                        <a href="#section-3" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
+    <section id="section-3" class="section-white">
+        <div class="intro-body">
             <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <canvas id="chart3" width="400" height="200"></canvas>
+                        <a href="#section-4" class="btn btn-circle btn-circle-blue page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-4" class="section-blue">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                      <p>This figure illustrates that official
+(pre-tax cash) income fell to 91.9 percent of its 2008 value by 2010. Although it
+increased over the post-recession years, by 2014 income under the official measure
+was only at 97.2 percent of its 2008 value.</p>
+                    </div>
+                    <div class="col-md-8">
+                      <canvas id="chart4" width="400" height="200"></canvas>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                  <a href="#download" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                  </a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+    <section id="download" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Start Bootstrap</h2>
@@ -133,9 +177,6 @@
         </div>
     </section>
 
-    <!-- Map Section -->
-    <div id="map"></div>
-
     <!-- Footer -->
     <footer>
         <div class="container text-center">
@@ -152,8 +193,257 @@
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    <script src="js/chart.js"></script>
+    <script>
+    $(document).ready(function(){
+      var chart0 = document.getElementById("chart0");
+      var chart1 = document.getElementById("chart1");
+      var chart2 = document.getElementById("chart2");
+      var chart3 = document.getElementById("chart3");
+      var chart4 = document.getElementById("chart4");
+
+      var chart0Constructor = new Chart(chart0, {
+        type: 'doughnut',
+        data: {
+          labels: ["% Below CEO Poverty Threshold", "% Above CEO Poverty Threshold"],
+          datasets: [
+            {
+              label: 'Official Poverty Measure',
+              borderColor: '#fff',
+              backgroundColor: ['rgba(0, 150, 136, .9)', 'rgba(3, 169, 244, .9)'],
+              data: [20.7, 79.3],
+              fill: true
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          title: {
+            display: true,
+            text: "Official and CEO Poverty Rates, 2005-2014",
+            fontColor: '#fff'
+          }
+        }
+      });
+
+      var chart1Constructor = new Chart(chart1, {
+        type: 'line',
+        data: {
+          labels: ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014"],
+          datasets: [
+            {
+              label: 'Official Poverty Measure',
+              borderColor: '#fff',
+              data: [18.3, 17.9, 16.8, 16.8, 17.3, 18.8, 19.3, 20.0, 19.9, 19.1],
+              fill: true
+            },
+            {
+              label: 'CEO Poverty Measure',
+              borderColor: '#fff',
+              data: [20.4, 19.8, 19.8, 19, 19.8, 20.8, 21.2, 21.2, 21.1, 20.7],
+              fill: true
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          title: {
+            display: true,
+            text: "Official and CEO Poverty Rates, 2005-2014",
+            fontColor: '#fff'
+          },
+          scales: {
+            ticks: {
+              fontColor: '#fff'
+            },
+            yAxes: [{
+              gridLines: {
+                color: 'rgba(255, 255, 255, 0.5)'
+              },
+              ticks: {
+                beginAtZero: true,
+                fontColor: '#fff'
+              }
+            }],
+            xAxes: [{
+              gridLines: {
+                fontColor: '#fff',
+                color: 'rgba(255, 255, 255, 0.5)'
+              },
+              ticks: {
+                show: true,
+                fontColor: '#fff',
+                beginAtZero:false
+              }
+            }]
+          }
+        }
+      });
+
+      var chart2Constructor = new Chart(chart2, {
+        type: 'bar',
+        data: {
+          labels: ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014"],
+          datasets: [
+            {
+              label: '% 18 - 64 Year-Olds Employed',
+              borderColor: '#fff',
+              backgroundColor: "rgba(0,85,149,0.89)",
+              data: [67.0, 68.7, 69.3, 70.8, 68.2, 66.4, 67.0, 68.0, 68.4, 69.4],
+              fill: true
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          title: {
+            display: true,
+            text: "Employment/Population Ratios, 2005-2014",
+            fontColor: 'rgba(0,85,149,1)'
+          },
+          scales: {
+            yAxes: [{
+              gridLines: {
+                color: 'rgba(0,85,149,0.2)'
+              },
+              ticks: {
+                beginAtZero:false,
+                fontColor: 'rgba(0,85,149,1)'
+              }
+            }],
+            xAxes: [{
+              ticks: {
+                fontColor: 'rgba(0,85,149,1)'
+              },
+              gridLines: {
+                fontColor: 'rgba(0,85,149,1)',
+                color: 'rgba(0,85,149,0.2)'
+              }
+            }]
+          }
+        }
+      });
+
+      var chart3Constructor = new Chart(chart3, {
+        type: 'bar',
+        data: {
+          labels: ["2010", "2011", "2012", "2013", "2014"],
+          datasets: [
+            {
+              label: 'At Least 50',
+              borderColor: '#fff',
+              backgroundColor: 'rgba(156, 39, 176, .9)',
+              data: [56.3, 56.3, 57.8, 57.5, 58.6],
+              fill: true
+            },
+            {
+              label: 'Less then 50',
+              borderColor: '#fff',
+              backgroundColor: 'rgba(0, 150, 136, .9)',
+              data: [16.5, 16.6, 15.9, 16.4, 16.1],
+              fill: true
+            },
+            {
+              label: 'No Weeks',
+              borderColor: '#fff',
+              backgroundColor: 'rgba(3, 169, 244, .9)',
+              data: [27.3, 27.0, 26.4, 26.0, 25.3],
+              fill: true
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          title: {
+            display: true,
+            text: "Weeks Worked in Prior 12 Months, 2010-2014",
+            fontColor: '#fff'
+          },
+          scales: {
+            yAxes: [{
+              stacked: true,
+              gridLines: {
+                color: 'rgba(255, 255, 255, 0.5)'
+              },
+              ticks: {
+                beginAtZero:false,
+                fontColor: '#fff'
+              }
+            }],
+            xAxes: [{
+              ticks: {
+                fontColor: '#fff'
+              },
+              stacked: true,
+              gridLines: {
+                fontColor: '#fff',
+                color: 'rgba(255, 255, 255, 0.5)'
+              }
+            }]
+          }
+        }
+      });
+
+      var chart4Constructor = new Chart(chart4, {
+        type: 'line',
+        data: {
+          labels: ["2008", "2009", "2010", "2011", "2012", "2013", "2014"],
+          datasets: [
+            {
+              label: 'Official Income',
+              borderColor: '#fff',
+              backgroundColor: 'rgba(156, 39, 176, .9)',
+              data: [100, 96.8, 91.9, 92.2, 92.0, 93.8, 97.2],
+              fill: true
+            },
+            {
+              label: 'CEO Income',
+              borderColor: '#fff',
+              backgroundColor: 'rgba(0, 150, 136, .9)',
+              data: [100, 99.8, 99.9, 102.1, 102.2, 103.5, 105.7],
+              fill: true
+            },
+            {
+              label: 'CEO Threshold',
+              borderColor: '#fff',
+              backgroundColor: 'rgba(3, 169, 244, .9)',
+              data: [100,101.5, 104.3, 107.4, 107.7, 108.1, 109.6],
+              fill: true
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          title: {
+            display: true,
+            text: "Comparison of Income Trends with the CEO Poverty Threshold, 2008-2014",
+            fontColor: '#fff'
+          },
+          scales: {
+            yAxes: [{
+              gridLines: {
+                color: 'rgba(255, 255, 255, 0.5)'
+              },
+              ticks: {
+                beginAtZero:false,
+                fontColor: '#fff'
+              }
+            }],
+            xAxes: [{
+              ticks: {
+                fontColor: '#fff'
+              },
+              gridLines: {
+                fontColor: '#fff',
+                color: 'rgba(255, 255, 255, 0.5)'
+              }
+            }]
+          }
+        }
+      });
+
+    });
+    </script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
